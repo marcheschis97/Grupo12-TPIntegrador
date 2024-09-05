@@ -1,0 +1,29 @@
+/* Estilo general del calendario */
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 columnas */
+    grid-template-rows: repeat(10, 1fr); /* 10 filas */
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+}
+
+/* Estilo para las celdas de los días y la cabecera */
+.header, .day {
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+/* Estilo para la cabecera de los días de la semana */
+.header {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+/* Estilo para los días del mes */
+.day {
+    background-color: #fff;
+}
