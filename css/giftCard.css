@@ -1,0 +1,82 @@
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.vista{
+    display: flex;
+    background-color:burlywood;
+    height: 250px;
+    width: 300px;
+
+}
+
+.formulario{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+ .formulario__colores{
+    display: flex;
+    flex-direction: row;
+} 
+
+.formulario__colores--color1{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.formulario__colores--color2{
+    background-color: rgb(146, 40, 146);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.formulario__colores--color3{
+    background-color: rgb(21, 101, 21);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.formulario__colores--color4{
+    background-color: rgb(4, 56, 223);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.formulario__ubicacion{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.formulario__ubicacion--ubicacion1{
+    background-color: aqua;
+    height: 30px;
+    width: 30px;
+}
+.formulario__ubicacion--ubicacion2{
+    background-color: rgb(90, 205, 92);
+    height: 30px;
+    width: 30px;
+}
+.formulario__ubicacion--ubicacion3{
+    background-color: yellow;
+    height: 30px;
+    width: 30px;
+}
+
+.formulario__fondo{
+    display: flex;
+    flex-direction: row;
+}
+.formulario__fondo--fondo1, .formulario__fondo--fondo2, .formulario__fondo--fondo3, .formulario__fondo--fondo4{
+    width: 40px;
+    height: 40px;
+}

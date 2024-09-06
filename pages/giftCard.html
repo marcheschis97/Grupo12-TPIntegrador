@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/giftCard.css"/>
+    <link rel="stylesheet" href="../css/Style.css"/>
+
+    <title>Gift Card Personalizada</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="Logo">
+                <img src="../assets/icon/logo.jpg"
+                    alt="Logo">
+            </div>
+
+            <input type="search" placeholder="Buscar...">
+
+            <div class="Carrito">
+                <img src="../assets/image/carrito.png" alt="Carrito">
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="vista">
+            <h5>aca es la vista previa</h5>
+        </section>
+
+        <section class="formulario">
+            <form method="get" action="#">
+                <h3>Personalización de Gift card</h3>
+
+                <div>
+                    <label for="nombreDestinatario"> Nombre del destinatario: </label><br />
+                    <input type="text" name="Nombre del destinatario" id="nombreDestinatario"
+                        placeholder="Agregar el nombre del destinatario" /><br />
+                </div>
+                <br />
+
+                <!--REDONDOS LISTOS VER COMO POSICIONAR LA SELECCION DEBAJO DE ELLOS-->
+                <label for="colorFuente">Color de la fuente: </label>
+                <br />
+
+                <div class="formulario__colores">
+
+                    <div class="formulario__colores--color1"> </div>
+                    <input type="radio" name="colorFuente" id="color1" />
+
+                    <div class="formulario__colores--color2"> </div>
+                    <input type="radio" name="colorFuente" id="color2" />
+
+                    <div class="formulario__colores--color3"> </div>
+                    <input type="radio" name="colorFuente" id="color3" />
+
+                    <div class="formulario__colores--color4"> </div>
+                    <input type="radio" name="colorFuente" id="color4" />
+                </div>
+
+                <br />
+                <div>
+                    <label for="tamanioFuente">Tamaño de la fuente: </label> <br />
+                    <input type="radio" name="tamanioFuente" id="20px" /> 20px
+                    <input type="radio" name="tamanioFuente" id="28px" /> 28px
+                    <input type="radio" name="tamanioFuente" id="32px" /> 32px
+                    <input type="radio" name="tamanioFuente" id="48px" /> 48px
+                    <input type="radio" name="tamanioFuente" id="60px" /> 60px <br />
+                </div>
+
+                <br />
+                <label for="montoTarjeta">Monto: </label> <br />
+                <input type="text" name="montoTarjeta" id="monto" placeholder="Monto que desea regalar" /> <br />
+
+                <br />
+                <!--Poner las imagenes de la ubicación-->
+                <label for="ubicacion">Ubicacion: </label> <br />
+                <div class="formulario__ubicacion">
+
+                    <div class="formulario__ubicacion--ubicacion1"> </div>
+                    <input type="radio" name="ubicacion" id="ubicacion1" />
+                    <div class="formulario__ubicacion--ubicacion2"> </div>
+                    <input type="radio" name="ubicacion" id="ubicacion2" />
+                    <div class="formulario__ubicacion--ubicacion3"> </div>
+                    <input type="radio" name="ubicacion" id="ubicacion3" />
+                </div>
+
+                <br />
+               
+                <label for="fondoTarjeta"> Fondo: </label> <br />
+                <div class="formulario__fondo">
+                    <!--Poner las imagenes de los fondos-->
+                    <div>
+                    <img src="../assets/fondosCard/fondo1.jpg" alt="Fondo corazones" class="formulario__fondo--fondo1"/>
+                    <input type="radio" name="fondoTarjeta" id="fondo1" />
+
+                    <img src="../assets/fondosCard/fondo2.jpg" alt="Fondo acuarela" class="formulario__fondo--fondo2"/>
+                    <input type="radio" name="fondoTarjeta" id="fondo2" />
+
+                    <img src="../assets/fondosCard/fondo3.jpg" alt="Fondo cuadrados azules" class="formulario__fondo--fondo3">
+                    <input type="radio" name="fondoTarjeta" id="fondo3" />
+
+                    <img src="../assets/fondosCard/fondo4.jpg" alt="Fondo rama" class="formulario__fondo--fondo4"/>
+                    <input type="radio" name="fondoTarjeta" id="fondo4" />
+                    <br/>
+
+                </div>
+
+                <button type="button">
+                    <a href="./PagoDeGiftCard.html" target="_blank"> Confirmar </a>
+                </button>
+                <!--Vuelve a Home o a una antes-->
+                <button type="button"> Volver </button>
+                
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>aca van columnas</p>
+    </footer>
+</body>
+
+</html>
