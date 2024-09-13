@@ -1,14 +1,14 @@
-body{
+body {
     padding: 10px;
     margin: 0px;
 }
 
-header{
+header {
     background-color: yellow;
-    
+
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,9 +16,10 @@ nav{
     padding-bottom: 5px;
     padding-left: 5%;
     padding-right: 5%;
+    background-color: #f8f9fa;
 }
 
-header nav input[type="search"]{
+header nav input[type="search"] {
     padding: 5px;
     width: 30%;
     height: 30px;
@@ -26,27 +27,48 @@ header nav input[type="search"]{
     outline: none;
 }
 
-header nav .Carrito{
+header nav .Carrito {
+    display: flex;
+    width: -100px;
+    height: 60px;
+    padding-bottom: 10px;
+
+}
+
+header nav .Logo {
     display: flex;
     width: -100px;
     height: 60px;
     padding-bottom: 10px;
 }
 
-header nav .Logo{
+header .menuprincipal {
     display: flex;
-    width: -100px;
-    height: 60px;
-    padding-bottom: 10px;
+    justify-content: space-around;
+    /* Espacio uniforme entre los elementos */
+    padding: 20px 5%;
+    /* Relleno opcional */
+    background-color: #e9ecef;
 }
 
-.img_Menu img{
+.menuprincipal a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.menuprincipal a:hover {
+    color: #007bff;
+}
+
+.img_Menu img {
     width: 100%;
 }
 
 /*Forma de div*/
 
-section .Pasos{
+section .Pasos {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -56,70 +78,70 @@ section .Pasos{
 }
 
 /* Clase para "Pasos"*/
-.paso{
+.paso {
     padding: 30px;
     background-color: blue;
     color: white;
 }
 
 
-section h2{
+section h2 {
     padding-top: 80px;
     text-align: center;
 
 }
 
-section .Cursos{
-    display:flex;
+section .Cursos {
+    display: flex;
     justify-content: space-between;
     padding: 0px 190px;
 }
 
-section .Cursos .C1{
+section .Cursos .C1 {
     padding: 30px;
     margin: 0px 40px;
     background-color: blue;
 }
 
-section .Cursos .C2{
+section .Cursos .C2 {
     padding: 30px;
     margin: 0px 40px;
     background-color: blue;
 }
 
-section .Cursos .C3{
+section .Cursos .C3 {
     padding: 30px;
     margin: 0px 40px;
     background-color: blue;
 }
 
-section .Cursos2{
-    display:flex;
+section .Cursos2 {
+    display: flex;
     justify-content: space-between;
     padding-top: 80px;
     padding-left: 190px;
     padding-right: 190px;
 }
 
-section .Cursos2 .C4{
+section .Cursos2 .C4 {
     padding: 30px;
     margin: 0px 40px;
     background-color: blue;
 }
 
-section .Cursos2 .C5{
+section .Cursos2 .C5 {
     padding: 30px;
     margin: 0px 40px;
     background-color: blue;
 }
 
-section .Cursos2 .C6{
+section .Cursos2 .C6 {
     padding: 30px;
     margin: 0px 40px;
     background-color: blue;
 }
 
-footer .Nosotros{
+footer .Nosotros {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -129,11 +151,9 @@ footer .Nosotros{
     background-color: aquamarine;
 }
 
-footer .Nosotros .paso2{
+footer .Nosotros .paso2 {
     background-color: brown;
     padding: 30px 140px;
     color: white;
 
 }
-
-
