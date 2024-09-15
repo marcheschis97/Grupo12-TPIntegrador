@@ -34,7 +34,7 @@ header nav .Carrito{
     padding-bottom: 10px;
 }
 
-header nav .Logo{
+header nav .Logo img{
     display: flex;
     width: -100px;
     height: 60px;
@@ -234,9 +234,31 @@ section .Cursos2 .C6{
     background-color: royalblue;
 }
 
-.python-imagen img,  .php-imagen img, .javascript-imagen img{
+.python-imagen img, .php-imagen img, .javascript-imagen img, .sql-imagen img{
     width: 100px;
     height: 100px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+footer {
+    padding-top: 10px;
+}
+
+footer .Nosotros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 30px;
+    gap: 30px;
+    background-color: aquamarine;
+}
+
+footer .Nosotros .paso2 {
+    background-color: brown;
+    padding: 20px;
+    color: white;
+    flex: 1;
+    text-align: center;
 }
