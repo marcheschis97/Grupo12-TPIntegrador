@@ -1,6 +1,7 @@
 body {
     padding: 10px;
     margin: 0px;
+    background-color: #FAF3E0;
 }
 
 header {
@@ -82,6 +83,7 @@ section .Pasos {
     padding: 30px;
     background-color: blue;
     color: white;
+    border-radius: 20px;
 }
 
 
@@ -93,53 +95,41 @@ section h2 {
 
 section .Cursos {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
     padding: 0px 190px;
 }
-
-section .Cursos .C1 {
+.estiloscursos{
     padding: 30px;
     margin: 0px 40px;
-    background-color: blue;
+    background-color: #FF6F61;
+    color: white;
+    flex: 1;
+    border-radius: 50px;
 }
 
-section .Cursos .C2 {
-    padding: 30px;
-    margin: 0px 40px;
-    background-color: blue;
+button{
+    border-radius: 15px;
+    background-color: yellow;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
 }
 
-section .Cursos .C3 {
-    padding: 30px;
-    margin: 0px 40px;
-    background-color: blue;
+button:hover{
+    background-color: #007bff;
 }
+
 
 section .Cursos2 {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
-    padding-top: 80px;
-    padding-left: 190px;
-    padding-right: 190px;
+    padding: 30px 190px;
 }
 
-section .Cursos2 .C4 {
-    padding: 30px;
-    margin: 0px 40px;
-    background-color: blue;
-}
-
-section .Cursos2 .C5 {
-    padding: 30px;
-    margin: 0px 40px;
-    background-color: blue;
-}
-
-section .Cursos2 .C6 {
-    padding: 30px;
-    margin: 0px 40px;
-    background-color: blue;
-}
 
 footer {
     padding-top: 10px;
